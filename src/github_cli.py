@@ -47,4 +47,7 @@ class GithubCLI:
                 for item in data
             ]
         )
+        table.max_width["NAME"] = 10
+        table.max_width["DESCRIPTION"] = 50
+        table.max_width["URL"] = 20
         print(table)
